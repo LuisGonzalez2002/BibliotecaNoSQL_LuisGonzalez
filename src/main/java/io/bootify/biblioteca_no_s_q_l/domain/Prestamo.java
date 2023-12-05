@@ -21,4 +21,10 @@ public class Prestamo extends Biblioteca {
 
     private EstadoLibro estadoLibro;
 
+    @NotNull
+    private Integer idLibro;
+
+    @NotNull
+    private Integer idLector;
+
 }

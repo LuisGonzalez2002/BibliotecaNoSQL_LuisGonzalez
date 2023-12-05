@@ -20,4 +20,10 @@ public class PrestamoDTO {
 
     private EstadoLibro estadoLibro;
 
+    @NotNull
+    private Integer idLibro;
+
+    @NotNull
+    private Integer idLector;
+
 }

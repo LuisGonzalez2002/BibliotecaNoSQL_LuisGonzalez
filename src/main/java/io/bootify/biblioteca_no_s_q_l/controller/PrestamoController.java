@@ -33,7 +33,7 @@ public class PrestamoController {
 
     @GetMapping
     public String list(final Model model) {
-        model.addAttribute("prestamoes", prestamoService.findAll());
+        model.addAttribute("prestamos", prestamoService.findAll());
         return "prestamo/list";
     }
 

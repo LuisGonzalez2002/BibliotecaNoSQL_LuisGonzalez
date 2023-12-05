@@ -53,6 +53,8 @@ public class PrestamoService {
         prestamoDTO.setFechaInicio(prestamo.getFechaInicio());
         prestamoDTO.setFechaDevolucion(prestamo.getFechaDevolucion());
         prestamoDTO.setEstadoLibro(prestamo.getEstadoLibro());
+        prestamoDTO.setIdLibro(prestamo.getIdLibro());
+        prestamoDTO.setIdLector(prestamo.getIdLector());
         return prestamoDTO;
     }
 
@@ -60,6 +62,8 @@ public class PrestamoService {
         prestamo.setFechaInicio(prestamoDTO.getFechaInicio());
         prestamo.setFechaDevolucion(prestamoDTO.getFechaDevolucion());
         prestamo.setEstadoLibro(prestamoDTO.getEstadoLibro());
+        prestamo.setIdLibro(prestamoDTO.getIdLibro());
+        prestamo.setIdLector(prestamoDTO.getIdLector());
         return prestamo;
     }
 
